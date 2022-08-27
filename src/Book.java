@@ -1,7 +1,7 @@
 public class Book {
-    private static String name;
-    private Author author;
-    private int year;
+   String name;
+   Author author;
+   int year;
 
 
 
@@ -21,14 +21,6 @@ public class Book {
 
     public int grtYear() {
         return  this.year;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAuthor(Author author) {
-        this.author = author;
     }
 
     public void  setYear(int year) {

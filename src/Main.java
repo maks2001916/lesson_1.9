@@ -1,12 +1,10 @@
 public class Main {
-    public static Book editingABook(String name, Author author, int year) {
-        Book book = new Book();
-        String book1 = Book.name;
-        Author.author =
+    Book book = new Book("tiile", new Author("Ivan", "Ivanov"), 2022);
+    Book origami4 = new Book("origami4", new Author("Robert", "J.Leng"), 2009);
+    origami4.setYear(2015);
 
-    }
+
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
-
 }
