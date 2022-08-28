@@ -11,19 +11,19 @@ public class Book {
         this.year = year;
     }
 
-    public String getName() {
+    private String getName() {
         return this.name;
     }
 
-    public Author getAuthor() {
+    private Author getAuthor() {
         return this.author;
     }
 
-    public int grtYear() {
+    private int grtYear() {
         return  this.year;
     }
 
-    public void setYear(int year) {
+    void setYear(int year) {
         this.year = year;
     }
 }
