@@ -11,20 +11,25 @@ public class Book {
         this.year = year;
     }
 
-    private String getName() {
+    public String getName() {
         return this.name;
     }
 
-    private Author getAuthor() {
+    public Author getAuthor() {
         return this.author;
     }
 
-    private int grtYear() {
+    public int grtYear() {
         return  this.year;
     }
 
     void setYear(int year) {
         this.year = year;
     }
+    @Override
+    public String toString() {
+        return "Название книги - " + this.name + "\n" + " Автор - " + this.author + "\n" + " Год издания - " + this.year;
+    }
+
 }
 

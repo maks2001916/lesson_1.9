@@ -7,11 +7,17 @@ public class Author {
         this.surname = surname;
     }
 
-    private String getName() {
+    public String getName() {
         return this.name;
     }
 
-    private String getSurname() {
+    public String getSurname() {
         return this.surname;
     }
+
+    @Override
+    public String toString() {
+        return  this.name + " " + this.surname ;
+    }
+
 }
