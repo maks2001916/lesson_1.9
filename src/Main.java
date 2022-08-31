@@ -10,6 +10,7 @@ public class Main {
         origami4.setYear(2015);
         System.out.println(book);
         System.out.println(origami4);
+        System.out.println(book.equals(origami4));
     }
 
 }
