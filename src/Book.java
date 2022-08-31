@@ -31,5 +31,10 @@ public class Book {
         return "Название книги - " + this.name + "\n" + " Автор - " + this.author + "\n" + " Год издания - " + this.year;
     }
 
+    @Override
+    public int hashCode() {
+        return java.util.Objects.hash(name);
+    }
+
 }
 
